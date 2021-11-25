@@ -1,0 +1,11 @@
+.pokemons-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 15px;
+}
+
+.pokemons-actions__button{
+  background-color: #30a7d7;
+  width: 150px;
+}

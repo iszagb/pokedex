@@ -1,0 +1,34 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation span {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation-left {
+  background-color: grey;
+  border-top-left-radius: 25px;
+}
+
+.navigation-right {
+  background-color: grey;
+  border-top-right-radius: 25px;
+}
+
+.link {
+  min-width: 40%;
+  text-decoration: none;
+  color: white;
+}
+
+.link:focus, :hover, :visited, :link, :active {
+  text-decoration: none;
+}

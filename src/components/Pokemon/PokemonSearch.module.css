@@ -1,0 +1,17 @@
+.pokemons-search{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pokemons-search__button{
+  background-color: #ee6b2f;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.error{
+  color: red;
+  font-size: small;
+  
+}
